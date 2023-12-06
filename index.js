@@ -14,6 +14,7 @@
 
             var textToEncode = ("Text stored: " + storedText);
             var qrcode = new QRCode(document.getElementById("qrcode"), {
+              
                 text: textToEncode,
                 width: 250 ,
                 height: 250
